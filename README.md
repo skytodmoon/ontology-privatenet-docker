@@ -1,6 +1,6 @@
 # Docker container for Ontology private-net
 
-This is a pre-configured docker container setup in a multinode (4) configuration.  This was designed to allow developers to have a private Ontology blockchain that can be used for testing purposes.
+This is a pre-configured docker container setup in a multinode (4) configuration.  This was designed to allow developers to have a private Ontology blockchain that can be used for testing purposes.  This is an initial release and may contain limited functionality. Further updates will be made once a wallet is released.
 <br><br>
 ## Setup
 
@@ -23,6 +23,15 @@ Four nodes have been setup all with RPC, RESTful and WebSockets configured. See 
 | 2 | 21334 | 21335 | 21336 |
 | 3 | 22334 | 22335 | 22336 |
 | 4 | 23334 | 23335 | 23336 |
+
+
+### Pre-configured wallet addresses
+| Node | Address |
+| --- | --- |
+| 1 | TA7Eh3Yp1yDJKcCJ3eHUBx8PUm3kPFewMp |
+| 2 | TA6SU75V9noAf32gNeasdjCWXGViNRkC3t |
+| 3 | TA8TTZssKjKQ4sCvbz1e7nSFbjksrpxTuw |
+| 4 | TA5CabpVz6Pr35j4f5C8m5VzbQNfLqcLsE |
 
 <br><br>
 ## Usage
