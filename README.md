@@ -35,10 +35,11 @@ Four nodes have been setup all with RPC, RESTful and WebSockets configured. See 
 | 3 | TA8mpRk8PiaKqBrRNgwSWeJ2DVrKECVcP9 | ont3 |
 | 4 | TA9KDkvqcSUQcucWAkKTqQcekDLf7ecrAh | ont4 |
 
-### Development usage address
+### Development address
+An address has been setup for testing of functions that require ONT (transfers, invoking contracts, etc) - details are: <br>
+
 Address: TA8HEr37yqME9RRrcCgTp9qZN2F1xdWPAz <br>
 Private Key: c49921f30369a7047d4cfadfa7be7a3166fcc4e951ecb5913f87800bb22ba469 <br>
-Public Key: 02efa83552cf6208548950b1aeff0fffe86f56c05d5f586541a597f70e5c628842 <br>
 ONT Balance: 100,000,000
 
 <br><br>
