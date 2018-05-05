@@ -1,6 +1,8 @@
 # Docker container for Ontology private-net
 
 This is a pre-configured docker container setup in a multinode (4) configuration.  This was designed to allow developers to have a private Ontology blockchain that can be used for testing purposes.  This is an initial release and may contain limited functionality. Further updates will be made once a wallet is released.
+
+Running Ontology node version 0.75
 <br><br>
 ## Setup
 
@@ -25,13 +27,19 @@ Four nodes have been setup all with RPC, RESTful and WebSockets configured. See 
 | 4 | 23334 | 23335 | 23336 |
 
 
-### Pre-configured wallet addresses
-| Node | Address |
-| --- | --- |
-| 1 | TA7Eh3Yp1yDJKcCJ3eHUBx8PUm3kPFewMp |
-| 2 | TA6SU75V9noAf32gNeasdjCWXGViNRkC3t |
-| 3 | TA8TTZssKjKQ4sCvbz1e7nSFbjksrpxTuw |
-| 4 | TA5CabpVz6Pr35j4f5C8m5VzbQNfLqcLsE |
+### Pre-configured node wallet addresses
+| Node | Address | Password |
+| --- | --- | --- |
+| 1 | TA81GwHHpM1MEzfP35hfscdC5BxkUfFsbK | ont1 |
+| 2 | TA7gqWVczawZhsCRUS6PYShP1jXkcT4uUX | ont2 |
+| 3 | TA8mpRk8PiaKqBrRNgwSWeJ2DVrKECVcP9 | ont3 |
+| 4 | TA9KDkvqcSUQcucWAkKTqQcekDLf7ecrAh | ont4 |
+
+### Development usage address
+Address: TA8HEr37yqME9RRrcCgTp9qZN2F1xdWPAz <br>
+Private Key: c49921f30369a7047d4cfadfa7be7a3166fcc4e951ecb5913f87800bb22ba469 <br>
+Public Key: 02efa83552cf6208548950b1aeff0fffe86f56c05d5f586541a597f70e5c628842 <br>
+ONT Balance: 100,000,000
 
 <br><br>
 ## Usage
